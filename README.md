@@ -1,2 +1,2 @@
-# lrx.github.io
-插件VUE-TT
+# 基于VUE的插件TC
+
