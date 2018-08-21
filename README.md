@@ -1,2 +1,2 @@
-## 一个基于vue的api插件
+## 一个基于vue的utils插件
 ## https://hahaluck.github.io/vue-tt
