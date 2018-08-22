@@ -20,9 +20,16 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
-      coverpage:true
+      name: 'vue-tt',
+      repo: 'HaHaLuck',
+        loadSidebar: true,
+        coverpage: true,
+        onlyCover: true,
+        auto2top: true,
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md'
+        },
+        subMaxLevel: 3
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
