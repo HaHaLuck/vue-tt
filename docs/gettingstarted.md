@@ -6,14 +6,14 @@
 
 可以直接参考vue的webpack模板构建方法。本文不再赘述
 
-[use the webpack-simple template](https://vuejs-templates.github.io/webpack/)
+[use the webpack-simple template](https://github.com/vuejs-templates/webpack-simple)
 
 ## 安装
 
 使用 npm 的方式安装
 
 ```bash
-npm install vue-tcbj --save
+npm install vue-tt --save
 ```
 
 ## 引入
@@ -23,7 +23,7 @@ npm install vue-tcbj --save
 ```js
 import Vue from 'vue'
 import App from './App'
-import t from 'vue-tcbj'
+import t from 'vue-tt'
 import tConfig from '../tConfig.js'
 
 Vue.use(t, tConfig);
@@ -34,7 +34,7 @@ new Vue({
 });
 ```
 
-以上代码便完成了vue-tcbj的引入。接下来只需要对它进行一下配置，马上就能开始运行了
+以上代码便完成了vue-tt的引入。接下来只需要对它进行一下配置，马上就能开始运行了
 
 ## 配置
 在项目根目录创建 tConfig.js文件
@@ -47,7 +47,7 @@ new Vue({
 
 ## 开始使用
 
-至此，一个基于 Vue 和 vue-tcbj 的开发环境已经搭建完毕，现在就可以编写代码了。启动开发模式：
+至此，一个基于 Vue 和 vue-tt 的开发环境已经搭建完毕，现在就可以编写代码了。启动开发模式：
 
 ```bash
 npm run dev
