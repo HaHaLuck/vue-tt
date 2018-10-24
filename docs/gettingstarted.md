@@ -8,6 +8,10 @@
 
 [use the webpack-simple template](https://github.com/vuejs-templates/webpack-simple)
 
+## 完整项目框架
+
+搭建还另需引入packge.json和webpack.config.js
+
 ## 安装
 
 使用 npm 的方式安装
