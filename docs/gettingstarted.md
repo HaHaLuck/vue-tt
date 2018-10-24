@@ -10,7 +10,7 @@
 
 ## 完整项目框架
 
-搭建还另需引入packge.json和webpack.config.js
+搭建还另需引入package.json和webpack.config.js
 
 ## 安装
 
