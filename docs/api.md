@@ -228,3 +228,10 @@ cookie 的读和写操作
 | value | <code>string</code> |
 | options | <code>object</code> |
 
+### t.isWeChatPlatform() ⇒ <code>boolean</code>
+是否是微信平台
+Returns:
+是微信平台，返回true；否则返回false。
+
+**Kind**: instance method of [<code>T</code>](#T)
+
