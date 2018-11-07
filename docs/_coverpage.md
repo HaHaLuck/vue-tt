@@ -1,5 +1,5 @@
 ## <font size="16">vue-tt</font>
-####一个前端小组常用方法的utils插件
+####一个前端小组常用方法的utils插件(vue)
 <font size="16">[GitHub](https://github.com/HaHaLuck/vue-tt)</font><font size="16">[开始进入](gettingstarted)</font>
 <!-- 背景图片 -->
 
