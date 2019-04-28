@@ -4,13 +4,8 @@
 
 ## 新建你的项目
 
-可以直接参考vue的webpack模板构建方法。本文不再赘述
-
-[use the webpack-simple template](https://github.com/vuejs-templates/webpack-simple)
-
-## 完整项目框架
-
-搭建还另需引入package.json和webpack.config.js
+- git下载模板项目 "git@gitlab.com:HaHaLuck/simpleprojecttemplate.git"
+- 可以直接参考vue的webpack模板构建方法。本文不再赘述 [use the webpack-simple template](https://github.com/vuejs-templates/webpack-simple)
 
 ## 安装
 
