@@ -25,6 +25,19 @@ Get the appId value.
 **Returns**: <code>string</code> - appId
 <a name="T+getOpenId"></a>
 
+<a name="T+getOpenIdFromWx"></a>
+
+### t.getOpenIdFromWx(params)
+通过微信服务器获取用户openId，但是不会直接返回，需要调用getOpenId方法
+
+如果在tConfig里指定了openId，将不会进行重定向
+
+**Kind**: instance method of [<code>T</code>](#T)
+
+| Param | Type | Description |
+| --- | --- | --- |
+| params | <code>string</code> | 可在publicPath后面加上所需要的参数，keyName,keyValue 依次排列. 开发者需要在tConfig里配置好 wxAuthorizedApi 和 appId |
+
 ### t.getOpenId() ⇒ <code>string</code>
 Get the openId value.
 
@@ -202,18 +215,6 @@ localStorage 的读和写操作。
 隐藏Loader。
 
 **Kind**: instance method of [<code>T</code>](#T)
-<a name="T+getOpenIdFromWx"></a>
-
-### t.getOpenIdFromWx(params)
-通过微信服务器获取用户openId
-
-如果在tConfig里指定了openId，将不会进行重定向
-
-**Kind**: instance method of [<code>T</code>](#T)
-
-| Param | Type | Description |
-| --- | --- | --- |
-| params | <code>string</code> | 可在publicPath后面加上所需要的参数，keyName,keyValue 依次排列. 开发者需要在tConfig里配置好 wxAuthorizedApi 和 appId |
 
 <a name="T+cookie"></a>
 

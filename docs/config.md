@@ -57,7 +57,7 @@ export default config
 
 ###### string
 
-静态文件发布后的路径
+静态文件发布后的路径，重定向地址
 
 ### wxSignatureApi
 
@@ -98,3 +98,9 @@ export default config
 ###### boolean
 
 是否检测errorCode并进行拦截
+
+### isErrorHandle
+
+###### boolean
+
+是否自己手动处理接口错误，false则会自动弹框weUi样式报错,true可手动修改报错样式

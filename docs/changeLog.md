@@ -1,3 +1,10 @@
+## v1.1.0(2019-04-28)
+### 新增tConfig配置字段
+- isErrorHandle【boolean】是否自己手动处理接口错误，false则会自动弹框weUi样式报错,true可手动修改报错样式
+### 修改方法
+- getOpenIdFromWx 不直接返回openId
+- getOpenId 直接返回openId，首次调用需要先调用getOpenIdFromWx()
+
 ## v1.0.20 (2018-11-06)
 
 ### 新增方法
