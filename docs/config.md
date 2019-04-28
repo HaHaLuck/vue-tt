@@ -1,26 +1,43 @@
 本文将讲述说明一下js文件内各字段的用途。
 
-js文件用来对vue-tcbj进行全局配置，指定后台错误返回码、微信公众号appId、是否启用微信的JSSDK能力 等。
+js文件用来对vue-tt进行全局配置，指定后台错误返回码、微信公众号appId、是否启用微信的JSSDK能力 等。
 
 以下是一个包含了部分配置选项的 tConfig.js：
 
 ```js
 const config = {
-  "appId": "wx88888888888",
-  "openId": "43hjfvdoisu43j2khfsd",
-  "baseURL": "https://www.domain.com",
-  "isUseWxSdk": true,
-  "publicPath": "https://www.domain.com/vue-tcbj/index.html",
-  "wxSignatureApi": "/getJsSdkSignature",
-  "wxAuthorizedApi": "/webDevAuthorized",
-  "wxDebug": false,
-  "wxJsApiList": [
+    //公众号appId
+    appId: "wx54e7a8c23bb2f22f",
+    //openId如果有值则不会进行重定向
+    openId: "",
+    //是否使用微信能力
+    isUseWxSdk: true,
+    isDebugMode: false,
+    //重定向后台域名
+    riderectUrl:"https://h5-test.by-health.com",
+    //接口域名  测试下为本地域名，webpack配置了转发域名
+    baseURL: "http://localhost:8080",
+    //重定向地址
+    publicPath: "http://localhost:8080/index.html",
+    //获取微信签名
+    wxSignatureApi: "/eCommerceDigitizationApi/getJsSdkSignature",
+    //接口前缀
+    wxAuthorizedApi: "/eCommerceDigitizationApi/webDevAuthorized",
+    //是否开启微信调式模式
+    wxDebug: false,
+    //需要使用的微信能力列表
+    wxJsApiList: [
+        "closeWindow",
         "hideOptionMenu",
         "scanQRCode"
-  ],
-  "errorCodeValue": "00",
-  isCheckErrorCode:false
-}
+    ],
+    //默认后台返回错误码
+    errorCodeValue: "00",
+    //是否检查错误码
+    isCheckErrorCode: true,
+    //是否自己手动处理接口错误，false则会自动弹框weUi样式报错,true可手动修改样式
+    isErrorHandle:false
+};
 
 export default config
 ```
