@@ -28,7 +28,7 @@ Get the appId value.
 <a name="T+getOpenIdFromWx"></a>
 
 ### t.getOpenIdFromWx(params)
-通过微信服务器获取用户openId，但是不会直接返回，需要调用getOpenId方法
+通过微信服务器重定向（不弹框，默认授权）获取用户openId，但是不会直接返回，需要调用getOpenId方法
 
 如果在tConfig里指定了openId，将不会进行重定向
 
