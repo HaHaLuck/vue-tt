@@ -12,6 +12,7 @@ const config = {
     openId: "",
     //是否使用微信能力
     isUseWxSdk: true,
+    //是否调用打印log功能
     isDebugMode: false,
     //重定向后台域名
     riderectUrl:"https://h5-test.by-health.com",
@@ -19,9 +20,9 @@ const config = {
     baseURL: "http://localhost:8080",
     //重定向地址
     publicPath: "http://localhost:8080/index.html",
-    //获取微信签名
+    //获取微信签名接口
     wxSignatureApi: "/eCommerceDigitizationApi/getJsSdkSignature",
-    //接口前缀
+    //微信重定向接口
     wxAuthorizedApi: "/eCommerceDigitizationApi/webDevAuthorized",
     //是否开启微信调式模式
     wxDebug: false,
