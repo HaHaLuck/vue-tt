@@ -34,9 +34,9 @@ const config = {
     ],
     //默认后台返回错误码
     errorCodeValue: "00",
-    //是否检查错误码
+    //是否检查错误码不是00的时候不自动弹错误信息框
     isCheckErrorCode: true,
-    //是否自己手动处理接口错误，false则会自动弹框weUi样式报错,true可手动修改样式
+    //是否自己手动处理接口网关等异常错误，false则会自动弹框weUi样式报错,true可手动修改样式
     isErrorHandle:false
 };
 
