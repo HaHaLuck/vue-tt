@@ -14,6 +14,8 @@ const config = {
     isUseWxSdk: true,
     //是否调用打印log功能
     isDebugMode: false,
+    //是否静默授权（静默授权：需关注公众号获取用户信息，弹窗授权：无需关注既可以获取用户信息）
+    isSilence:false,
     //重定向后台域名
     riderectUrl:"https://h5-test.by-health.com",
     //接口域名  测试下为本地域名，webpack配置了转发域名
