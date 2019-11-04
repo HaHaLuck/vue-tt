@@ -202,7 +202,6 @@ localStorage 的读和写操作。
 
 ### t.showLoader(tempOpt)
 显示Loader。可以通过hideLoader()显式关闭或者等待超时才关闭。
-详细参数见：https://wevue.org/doc/v2_0/toast 中的loading方法
 
 **Kind**: instance method of [<code>T</code>](#T)
 
